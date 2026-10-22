@@ -1,8 +1,7 @@
 public class GitTest {
     public static void main(String[] args) {
-        System.out.println("There's nothing to see here");
-        System.out.println("First Tag V1");
-        System.out.println("First Tag V2");
-        System.out.println("First Tag V3");
+       int num = 12345678;
+       String str = String.valueOf(num).replaceAll("\\B(?=(\\d{3})+(?!\\d))", ",");
+        System.out.println(str);
     }
 }
