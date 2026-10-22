@@ -3,5 +3,6 @@ public class GitTest {
         System.out.println("There's nothing to see here");
         System.out.println("First Tag V1");
         System.out.println("First Tag V2");
+        System.out.println("First Tag V3");
     }
 }
